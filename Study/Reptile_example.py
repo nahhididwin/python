@@ -1,3 +1,5 @@
+# https://github.com/openai/supervised-reptile
+
 import numpy as np
 import torch
 from torch import nn, autograd as ag
