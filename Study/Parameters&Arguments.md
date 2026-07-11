@@ -6,9 +6,19 @@ Tham số (Parameter): Là những "Khung kẹp nhãn trống" được chuẩn 
 Đối số (Argument): Là Đồ vật thật (hoặc nhãn của đồ vật thật) ta đứng từ bên ngoài ném vào các khung kẹp trống đó khi gọi hàm.
 
 
+**1. Đường đi dữ liệu trong Hàm (def)**
 
+Hãy nhìn cách dữ liệu di chuyển từ ngoài vào trong một hàm thông thường:
 
+Pseudocode :
 
+x = input()
+
+def cal(x_local):
+  y_local = x_local * 67
+  return y_local
+
+y = cal(x)
 
 
 
