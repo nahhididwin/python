@@ -26,6 +26,8 @@ Tuy nhiên, chỉ hỗ trợ các kiểu dữ liệu nguyên bản (int, float, 
 
 Thay vì chạy python script.py; bạn cài PyPy và chạy pypy3 script.py;
 
+**TUY NHIÊN :** Tuy nhiên, PyPy tương thích kém hoặc làm chậm các thư viện viết bằng C extension như NumPy, Pandas, TensorFlow.
+
 # Free-Threading, Taichi/CuPy
 
 **1. Kích hoạt Free-Threading (Bỏ GIL) trên Python 3.14+ :**
