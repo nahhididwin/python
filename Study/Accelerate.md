@@ -22,7 +22,7 @@ parallel=True thì hình như để phân rã vòng lặp ra đa nhân CPU.
 
 Tuy nhiên, chỉ hỗ trợ các kiểu dữ liệu nguyên bản (int, float, array), không hỗ trợ các object tùy biến của Python.
 
-**PyPy (thay thế CPython) :**
+**2. PyPy (thay thế CPython) :**
 
 Thay vì chạy python script.py; bạn cài PyPy và chạy pypy3 script.py;
 
