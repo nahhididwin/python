@@ -26,6 +26,17 @@ Tuy nhiên, chỉ hỗ trợ các kiểu dữ liệu nguyên bản (int, float, 
 
 Thay vì chạy python script.py; bạn cài PyPy và chạy pypy3 script.py;
 
+# Free-Threading, Taichi/CuPy
+
+**1. Kích hoạt Free-Threading (Bỏ GIL) trên Python 3.14+ :**
 
 
-# 
+Chạy ứng dụng bằng cờ python3.14 -X freethreading. Vậy nên, bạn có thể sử dụng thư viện threading để chạy các tác vụ tính toán nặng trên nhiều nhân CPU;
+
+**2. GPU**
+
+Sử dụng thư viện Taichi hoặc CuPy giúp bạn viết code bằng cú pháp Python nhưng khi chạy, toàn bộ mã sẽ được biên dịch thành mã CUDA;
+
+
+
+
